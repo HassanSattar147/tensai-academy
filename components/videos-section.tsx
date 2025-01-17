@@ -9,19 +9,20 @@ interface Video {
 const videos: Video[] = [
   {
     title: "TensaiDevs Introduction",
-    description: "We empower the next generation of professionals through innovative, free educational resources and cutting-edge programs. ",
-    videoId: "4l90IYPzYA0", // Replace with actual video ID
+    description:
+      "We empower the next generation of professionals through innovative, free educational resources and cutting-edge programs. ",
+    videoId: "ozepGpqTWNE", // Replace with actual video ID
+  },
+  {
+    title: "TensaiDevs AI Batch Announcement",
+    description: "Announcement for the new AI batch at TensaiDevs.",
+    videoId: "B0hSV6-frOk", // Replace with actual video ID
   },
   {
     title: "How TensaiDevs Provides Free Education",
     description: "Learn how TensaiDevs offers free education to students.",
-    videoId: "K11VC3vIjOE", // Replace with actual video ID
+    videoId: "L2iB3Hkq9lA", // Replace with actual video ID
   },
-  // {
-  //   title: "TensaiDevs AI Batch Announcement",
-  //   description: "Announcement for the new AI batch at TensaiDevs.",
-  //   videoId: "dQw4w9WgXcQ", // Replace with actual video ID
-  // },
 ];
 
 const VideoSection: React.FC<{ whiteBG?: boolean }> = ({ whiteBG }) => {

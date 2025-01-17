@@ -43,10 +43,10 @@ export function HeroSection() {
           </Button>
         </Link>
         <p className="text-xl mb-2 mt-8 font-bold">
-          Classes start on February 3, 2025
+          Classes start on February 10, 2025
         </p>
         <p className="text-xl font-bold text-[#ff5353]">
-          Applications close on January 20, 2025
+          Applications close on January 24, 2025
         </p>
       </div>
     </section>

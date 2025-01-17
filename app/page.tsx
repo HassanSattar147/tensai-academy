@@ -8,7 +8,7 @@ import { FAQSection } from "@/components/faq-section";
 import { Footer } from "@/components/footer";
 import { NavBar } from "@/components/nav-bar";
 import JoinCommunity from "@/components/join-community";
-// import VideoSection from "@/components/videos-section";
+import VideoSection from "@/components/videos-section";
 
 export default function Home() {
   return (
@@ -21,7 +21,7 @@ export default function Home() {
         <ProgramsSection />
         <WhyChooseUsSection />
         <MissionSection />
-        {/* <VideoSection /> */}
+        <VideoSection />
         {/* <TestimonialsSection /> */}
         <FAQSection />
         <JoinCommunity />
